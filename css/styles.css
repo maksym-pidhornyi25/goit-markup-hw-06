@@ -107,6 +107,8 @@ button {
   fill: #2f2f37;
 }
 
+/* header-tablet */
+
 @media screen and (min-width: 768px) {
   .burger-btn {
     display: none;
@@ -185,6 +187,8 @@ button {
     color: #404bbf;
   }
 }
+
+/* header-desktop */
 
 @media screen and (min-width: 1158px) {
   .header-logo {
@@ -397,7 +401,7 @@ button {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/dark-bg@1x.jpg);
+      url(../images/backgrounds/dark-bg.jpg);
   }
 }
 
@@ -407,7 +411,7 @@ button {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/dark-bg@2x.jpg);
+      url(../images/backgrounds/dark-bg@2x.jpg);
   }
 }
 
@@ -434,7 +438,7 @@ button {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/dark-bg-tab@1x.jpg);
+      url(../images/backgrounds/dark-bg-tab.jpg);
   }
 }
 
@@ -444,11 +448,11 @@ button {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/dark-bg-tab@2x.jpg);
+      url(../images/backgrounds/dark-bg-tab@2x.jpg);
   }
 }
 
-/* hero-banner-desctop */
+/* hero-banner-desktop */
 
 @media screen and (min-width: 1158px) {
   .hero-banner {
@@ -469,7 +473,7 @@ button {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/people-office@1x.jpg);
+      url(../images/backgrounds/people-office.jpg);
   }
 }
 
@@ -479,7 +483,7 @@ button {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/people-office@2x.jpg);
+      url(../images/backgrounds/people-office@2x.jpg);
   }
 }
 
@@ -531,6 +535,8 @@ button {
   color: #434455;
 }
 
+/* benefits-tablet */
+
 @media screen and (min-width: 768px) {
   .benefits-list {
     align-items: flex-start;
@@ -546,6 +552,8 @@ button {
     text-align: start;
   }
 }
+
+/* benefits-desktop */
 
 @media screen and (min-width: 1158px) {
   .benefits {
@@ -672,6 +680,8 @@ button {
   background-color: #404bbf;
 }
 
+/* team-members-tablet */
+
 @media screen and (min-width: 768px) {
   .team-members {
     background-color: #f4f4fd;
@@ -688,6 +698,8 @@ button {
     width: calc((100% - 24px) / 2);
   }
 }
+
+/* team-members-desktop */
 
 @media screen and (min-width: 1158px) {
   .team-members {
@@ -760,6 +772,8 @@ button {
   display: none;
 }
 
+/* portfolio-tablet */
+
 @media screen and (min-width: 768px) {
   .portfolio-card-list {
     display: flex;
@@ -771,6 +785,8 @@ button {
     width: calc((100% - 24px) / 2);
   }
 }
+
+/* portfolio-desktop */
 
 @media screen and (min-width: 1158px) {
   .portfolio {
@@ -851,8 +867,12 @@ button {
   max-width: 264px;
 }
 
+/* footer-tablet */
+
 @media screen and (min-width: 768px) {
 }
+
+/* footer-desktop */
 
 @media screen and (min-width: 1158px) {
   .page-footer {
