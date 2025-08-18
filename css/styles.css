@@ -391,18 +391,13 @@ button {
   background-color: #404bbf;
 }
 
-/* hero-banner-background-image */
-
-/* mobile */
-
-@media (max-width: 767px) and (min-resolution: 96dpi) {
+@media (max-width: 767px) {
   .hero-banner {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      <img srcset= "./images/photo.jpg 1x, ./img/photo@2x.jpg 2x" src=
-        "./images/.jpg" alt= "" / > (../images/dark-bg-1x.jpg);
+      url(../images/dark-bg@1x.jpg);
   }
 }
 
@@ -412,53 +407,11 @@ button {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/dark-bg-2x.jpg);
+      url(../images/dark-bg@2x.jpg);
   }
 }
 
-/* tablet */
-
-@media (min-width: 768px) and (min-resolution: 96dpi) {
-  .hero-banner {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/dark-bg-tab-1x.jpg);
-  }
-}
-
-@media (min-width: 768px) and (min-resolution: 192dpi) {
-  .hero-banner {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/dark-bg-tab-2x.jpg);
-  }
-}
-
-/* desctop */
-
-@media (min-width: 1158px) and (min-resolution: 96dpi) {
-  .hero-banner {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/people-office-1x.jpg);
-  }
-}
-
-@media (min-width: 1158px) and (min-resolution: 192dpi) {
-  .hero-banner {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/people-office-2x.jpg);
-  }
-}
+/* hero-banner-tablet */
 
 @media screen and (min-width: 768px) {
   .hero-banner {
@@ -475,6 +428,28 @@ button {
   }
 }
 
+@media (min-width: 768px) {
+  .hero-banner {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/dark-bg-tab@1x.jpg);
+  }
+}
+
+@media (min-width: 768px) and (min-resolution: 192dpi) {
+  .hero-banner {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/dark-bg-tab@2x.jpg);
+  }
+}
+
+/* hero-banner-desctop */
+
 @media screen and (min-width: 1158px) {
   .hero-banner {
     max-width: 1440px;
@@ -485,6 +460,26 @@ button {
   }
   .hero-banner-btn {
     margin-top: 48px;
+  }
+}
+
+@media (min-width: 1158px) {
+  .hero-banner {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office@1x.jpg);
+  }
+}
+
+@media (min-width: 1158px) and (min-resolution: 192dpi) {
+  .hero-banner {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office@2x.jpg);
   }
 }
 
@@ -832,4 +827,44 @@ button {
 
 .page-footer {
   background-color: #2e2f42;
+}
+
+.page-footer {
+  padding: 96px 16px;
+}
+
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.footer-logo .logo-part {
+  color: #f4f4fd;
+}
+
+.footer-descr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  max-width: 264px;
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 1158px) {
+  .page-footer {
+    padding: 100px 0;
+  }
+
+  .footer-container {
+    display: flex;
+    align-items: baseline;
+  }
+  .webstudio {
+    padding-left: 156px;
+    margin-right: 120px;
+  }
 }
