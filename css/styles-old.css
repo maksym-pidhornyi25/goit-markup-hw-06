@@ -16,25 +16,25 @@
   max-width: 264px;
 } */
 
-.social-media-title {
+/* .social-media-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #fff;
   margin-bottom: 16px;
-}
+} */
 
-.social-media {
+/* .social-media {
   display: block;
   gap: 16px;
   padding: 0;
   margin: 0;
   justify-content: center;
   list-style: none;
-}
+} */
 
-.social-media-list {
+/* .social-media-list {
   display: flex;
   gap: 16px;
 }
@@ -53,7 +53,7 @@
 .media-link:hover,
 .media-link:focus {
   background-color: #31d0aa;
-}
+} */
 
 .footer-subscribe {
   margin-left: auto;
@@ -302,4 +302,92 @@
 .checkbox-link {
   color: #4d5ae5;
   text-decoration-line: underline;
+}
+
+.mobile-menu-container {
+  position: relative;
+  padding-top: 72px;
+  padding-bottom: 40px;
+  padding-left: 16px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.mobile-menu-nav {
+  margin-bottom: auto;
+}
+
+.mobile-menu-nav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.mobile-menu-nav-link {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.mobile-menu-nav-link:hover,
+.mobile-menu-nav-link:focus,
+.mobile-menu-nav-link.current {
+  color: #404bbf;
+}
+
+.mobile-menu-contacts {
+  margin-bottom: 48px;
+}
+
+.mobile-menu-contacts-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  font-style: normal;
+}
+
+.mobile-menu-contacts-link {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #434455;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mobile-menu-contacts-link:hover,
+.mobile-menu-contacts-link:focus {
+  color: #4d5ae5;
+}
+
+.mobile-social-media-list {
+  display: flex;
+  gap: 40px;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  list-style: none;
+}
+
+.mobile-media-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mobile-media-link:hover,
+.mobile-media-link:focus {
+  background-color: #31d0aa;
+}
+
+.mobile-social-icon {
+  fill: #f4f4fd;
 }

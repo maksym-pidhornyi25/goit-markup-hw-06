@@ -234,6 +234,7 @@ button {
   position: relative;
   padding-top: 72px;
   padding-bottom: 40px;
+  padding-left: 16px;
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -849,8 +850,14 @@ button {
   padding: 96px 16px;
 }
 
+.webstudio {
+  display: block;
+  margin-bottom: 72px;
+}
+
 .footer-logo {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   margin-bottom: 16px;
 }
 
@@ -864,7 +871,119 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  max-width: 264px;
+  max-width: 288px;
+}
+
+.social-media-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 72px;
+  list-style: none;
+}
+
+.social-media-list {
+  display: flex;
+  gap: 16px;
+}
+
+.media-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.media-link:hover,
+.media-link:focus {
+  background-color: #31d0aa;
+}
+
+.footer-subscribe {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer-subscribe-descr {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.footer-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer-input {
+  width: 288px;
+  height: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  padding: 0;
+  padding-left: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: #ffffff;
+}
+
+.footer-input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.submit-btn {
+  min-width: 165px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  border: none;
+  border-radius: 4px;
+  padding: 0;
+}
+
+.icon-frame {
+  margin-left: 16px;
+  fill: #ffffff;
+}
+
+.submit-btn:focus,
+.submit-btn:hover {
+  background-color: #31d0aa;
+}
+.footer-input:focus,
+.footer-input:hover {
+  border: 1px solid #31d0aa;
 }
 
 /* footer-tablet */
