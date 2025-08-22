@@ -588,10 +588,6 @@ button {
   padding: 96px 0;
 }
 
-.team-members-container {
-  padding: 0 28px;
-}
-
 .team-members-title {
   margin-bottom: 72px;
   margin-left: auto;
@@ -683,10 +679,6 @@ button {
 /* team-members-tablet */
 
 @media screen and (min-width: 768px) {
-  .team-members-container {
-    padding: 0 108px;
-  }
-
   .team-members-list {
     row-gap: 64px;
   }
@@ -702,10 +694,6 @@ button {
 @media screen and (min-width: 1158px) {
   .team-members {
     padding: 120px 0;
-  }
-
-  .team-members-container {
-    padding: 0 156px;
   }
 
   .team-members-list {
@@ -1039,8 +1027,8 @@ button {
   .footer-container.container {
     flex-wrap: nowrap;
     justify-content: center;
-    align-items: center;
-    padding: 0;
+    align-items: baseline;
+    padding: 0 15px;
     gap: 0;
   }
 
